@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import { Header } from "./components/Header";
+import { Student } from "./components/Student";
+import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <div className="normal">
+        <h3>NORMAL WAY</h3>
+        <p><b>sending properties from parent to child by using props and "{"{}"}" as "{"<Student Name=Bharath Age={23} isMarried={false} />"}" and details are passed</b></p>
+      </div>
+      <Student Name="Bharath" Age={23} isMarried={false} />
+      <Student Name="Hemani" Age={23} isMarried={false} />
     </div>
   );
 }

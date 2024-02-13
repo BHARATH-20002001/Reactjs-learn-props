@@ -1,0 +1,27 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.name {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Protest Revolution", sans-serif;
+  font-style: normal;
+}
+
+.name h1 {
+  color: red;
+  text-decoration: double;
+  padding: 30px;
+  font-size: 4rem;
+}
+
+.name p {
+  color: darkblue;
+  font-size: 2rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap')
