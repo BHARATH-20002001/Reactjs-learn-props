@@ -5,3 +5,33 @@
   flex-direction: column;
   align-items: center;
 }
+
+.abc
+{
+  border: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.abc h2
+{
+  font-size: 2rem;
+}
+
+.abc p 
+{
+  font-size: 1rem;
+}
+
+.CHILDREN
+{
+  width: 100%;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
